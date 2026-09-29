@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="showcase_banner.svg" alt="Quillhog Engineering Showcase">
+  <img src="quillhog_banner_orange.svg" alt="Quillhog Engineering Showcase">
 </div>
 
 <br>
