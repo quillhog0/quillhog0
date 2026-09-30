@@ -17,7 +17,7 @@
 
 ---
 
-Quillhog is a small studio. We build tools that do one job on Solana and then get out of the way.
+Quillhog puts finished tools on a shelf. One job each. Then it gets out of the way.
 
 No credit card. No account. No seed phrase handed to us. You sign what your wallet already owns. Network fees go to validators. That does not change.
 
