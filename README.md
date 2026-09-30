@@ -9,12 +9,6 @@
   Non-custodial Solana utilities. No account. No KYC.
 </p>
 
-<p align="center">
-  <a href="https://quillhog.xyz">quillhog.xyz</a>
-  ·
-  <a href="https://x.com/Quillhog0">@Quillhog0</a>
-</p>
-
 ---
 
 Quillhog puts finished tools on a shelf. One job each. Then it gets out of the way.
@@ -39,11 +33,6 @@ A sliver of SOL covers the network fee. Nothing here is a return, a yield, or a 
 - No PII ledger. No IP kept as identity. No key ever stored.
 - Payments checked on-chain. No Stripe. No KYC desk.
 - Source for a module stays sealed until that module is meant to be read in public.
-
-## Links
-
-- Site — [quillhog.xyz](https://quillhog.xyz)
-- X — [@Quillhog0](https://x.com/Quillhog0)
 
 ---
 
