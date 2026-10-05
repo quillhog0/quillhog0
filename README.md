@@ -4,10 +4,7 @@
 
 <br>
 
-<p align="center">
-  <strong>SPIKY ALIAS. WHOLE SHELF OF WORK.</strong><br>
-  Non-custodial Solana utilities. No account. No KYC.
-</p>
+
 
 ---
 
