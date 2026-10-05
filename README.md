@@ -22,7 +22,7 @@ Public names. Not repo names.
 | | | |
 | :--- | :--- | :--- |
 | **Claime** | Reclaim dormant rent from empty token accounts. Native `CloseAccount` only. Destination is the signer. | **0%** protocol fee |
-| **Record** | Zero-disk deterministic transaction export (30, 90, or 365 days). Delivers a sealed audit-grade ZIP with full ledger CSV. | **10 / 15 / 25 USDC** |
+| **Record** | Zero-disk deterministic transaction export (30, 90, or 365 days). Delivers a sealed audit-grade ZIP with full ledger CSV. | **Pay by USDC** |
 | **Till** | The non-custodial POS payment rail powering the shelf. Settles on-chain. Not a homepage product. | **NEXT** |
 
 A sliver of SOL covers the network fee. Nothing here is a return, a yield, or a guaranteed outcome.
