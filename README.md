@@ -22,8 +22,8 @@ Public names. Not repo names.
 | | | |
 | :--- | :--- | :--- |
 | **Claime** | Reclaim dormant rent from empty token accounts. Native `CloseAccount` only. Destination is the signer. | **0%** protocol fee |
-| **Record** | 30-day transaction export. CSV, a short audit note, raw JSON. Paid on-chain. | **10 USDC** |
-| **Till** | The pay rail the other tools use. Not a homepage product. | — |
+| **Record** | Zero-disk deterministic transaction export (30, 90, or 365 days). Delivers a sealed audit-grade ZIP with full ledger CSV. | **10 / 15 / 25 USDC** |
+| **Till** | The non-custodial POS payment rail powering the shelf. Settles on-chain. Not a homepage product. | **NEXT** |
 
 A sliver of SOL covers the network fee. Nothing here is a return, a yield, or a guaranteed outcome.
 
@@ -31,8 +31,8 @@ A sliver of SOL covers the network fee. Nothing here is a return, a yield, or a 
 
 - Non-custodial instruction builders. No intermediate escrow. No delegate.
 - No PII ledger. No IP kept as identity. No key ever stored.
-- Payments checked on-chain. No Stripe. No KYC desk.
-- Source for a module stays sealed until that module is meant to be read in public.
+- Payments checked on-chain via one-time signatures. No Stripe. No subscriptions.
+- Ephemeral streams. Source code stays sealed until that module is meant to be read in public.
 
 ---
 
