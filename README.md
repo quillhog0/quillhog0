@@ -1,38 +1,38 @@
 <div align="center">
-  <img src="quillhog_banner_orange.svg?v=3" alt="Quillhog">
+  <img src="quillhog_banner_orange.svg?v=4" alt="Quillhog">
 </div>
 
-<br>
+**I build trading and on-chain tools, and the guardrails that let AI agents work on them without wrecking anything.**
 
-
-
----
-
-Quillhog puts finished tools on a shelf. One job each. Then it gets out of the way.
-
-No credit card. No account. No seed phrase handed to us. You sign what your wallet already owns. Network fees go to validators. That does not change.
-
-## The shelf
-
-Public names. Not repo names.
-
-| | | |
-| :--- | :--- | :--- |
-| **Claime** | Reclaim dormant rent from empty token accounts. Native `CloseAccount` only. Destination is the signer. | **0%** protocol fee |
-| **Record** | Zero-disk deterministic transaction export (30, 90, or 365 days). Delivers a sealed audit-grade ZIP with full ledger CSV. | **Pay by USDC** |
-| **Till** | The non-custodial POS payment rail powering the shelf. Settles on-chain. Not a homepage product. | **NEXT** |
-
-A sliver of SOL covers the network fee. Nothing here is a return, a yield, or a guaranteed outcome.
-
-## How it is built
-
-- Non-custodial instruction builders. No intermediate escrow. No delegate.
-- No PII ledger. No IP kept as identity. No key ever stored.
-- Payments checked on-chain via one-time signatures. No Stripe. No subscriptions.
-- Ephemeral streams. Source code stays sealed until that module is meant to be read in public.
+QA background. That's why the agents here get red tests and hard stops, not vibes.
 
 ---
 
-<p align="center">
-  <sub>Punk in the garage. Pro in the work.</sub>
-</p>
+## What I build
+
+| Project | What it is | Status |
+|---|---|---|
+| **[Claime](https://github.com/quillhog0/claime)** | Non-custodial Solana rent reclaimer. It closes empty SPL / Token-2022 accounts and builds unsigned transactions that the user signs in their own wallet. The server never touches keys. 0% protocol fee. | Live at [quillhog.xyz](https://quillhog.xyz) · Python |
+| **[safe-agent-kit](https://github.com/quillhog0/safe-agent-kit)** | Drop-in `AGENTS.md` role templates for AI coding agents. Covers DRY_RUN by default, keeping secrets untouchable, no irreversible actions without a human yes, and `file:line` evidence for every claim. | Public · MIT |
+| **Record** | Zero-disk deterministic Solana transaction export (30, 90 or 365 days) as a sealed ZIP with a full ledger CSV. | Pay by USDC |
+| **Till** | Non-custodial POS payment rail that settles on-chain. | Next |
+| **Trading Machine** | A Python multi-agent trading bot for XAU/USD over cTrader FIX, with a risk guardian, broker sync, reconciliation and journaling. | Private · demo/prop environments |
+| **Trading Machine L8** | A rebuild of the bot as a modular, white-label framework: uv monorepo, `mypy --strict`, ruff, pytest coverage gates, CCXT / cTrader / paper adapters and notifiers. Paper mode is the default. | In progress · private |
+
+> No profit or win-rate claims here, ever. This is infrastructure, not a signal service.
+
+## How I work
+
+- **Agent orchestration.** Several AI agents run with fixed roles: a librarian/docs agent, project managers and implementers. Each role has its own rules and its own report format.
+- **Guardrails first.** DRY_RUN is the default, nothing goes live without an explicit flag plus confirmation, and agents never read `.env`, keys or state.
+- **Branch → PR → review.** Agents don't push to main, don't publish, and don't delete; they archive. Architecture decisions go into ADRs.
+- **QA mindset.** Golden tests before any refactor of risk logic. Green tests, ruff and mypy at the end of every phase. A failing test never gets skipped.
+
+## Stack
+
+`Python` · `uv` · `pytest` · `mypy` · `ruff` · `cTrader FIX / Open API` · `CCXT` · `Solana` · `Jupiter` · `Cursor / Claude Code / Codex / Gemini CLI` · `Linux` · `git`
+
+## Contact
+
+- X: [@Quillhog0](https://x.com/Quillhog0)
+- Web: [quillhog.xyz](https://quillhog.xyz)
